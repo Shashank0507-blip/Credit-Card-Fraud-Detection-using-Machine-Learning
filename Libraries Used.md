@@ -24,15 +24,15 @@
 * from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score.
 
 ### **Libraries that are to be installed manually in the "jupyter" notebook:**
-* import dill
-Code used to install: " !pip install dill "
+- import dill
+  -Code used to install: " !pip install dill "
 
-* from skopt.space import Real
-from skopt.space import Integer, Categorical
-Code to install: " !pip install scikit-optimize "
+- from skopt.space import Real
+  -from skopt.space import Integer, Categorical
+  -Code to install: " !pip install scikit-optimize "
 
-* from lightgbm import LGBMClassifier
-Code used to install: " !pip install lightgbm "
+- from lightgbm import LGBMClassifier
+  -Code used to install: " !pip install lightgbm "
 
-* from imblearn.over_sampling import SMOTE
-Code to Install: " !pip install imbalanced-learn "
+- from imblearn.over_sampling import SMOTE
+  -Code to Install: " !pip install imbalanced-learn "
