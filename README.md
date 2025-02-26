@@ -1,6 +1,6 @@
-**Project Overview:**
+### **Project Overview:**
 
-**This project focuses on detecting fraudulent credit card transactions using lightgbm, a powerful gradient boosting algorithm. It includes:**
+### **This project focuses on detecting fraudulent credit card transactions using lightgbm, a powerful gradient boosting algorithm. It includes:**
 Data preprocessing & feature engineering,
 Model training and evaluation,
 Saving the trained model for real-world predictions,
@@ -15,7 +15,7 @@ User-friendly input handling for new transactions.
    *  Fraudulent transactions are rare (~0.17% of total data).
       We check for extreme outliers that might skew the model.
 
-**Once the data is preprocessed, we train an "LIGHTGBM" Classifier to detect fraud. Here’s the process that was used:**
+### **Once the data is preprocessed, we train an "LIGHTGBM" Classifier to detect fraud. Here’s the process that was used:**
    * **Train-Test Split:**
      The dataset is split into training (80%) and testing (20%) to evaluate performance.
 
@@ -27,7 +27,7 @@ User-friendly input handling for new transactions.
       learning_rate, max_depth, n_estimators, colsample_bytree and subsample.
 
 
-**Link to download the dataset:**
+### **Link to download the dataset:**
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 
