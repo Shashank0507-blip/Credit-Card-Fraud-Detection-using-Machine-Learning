@@ -15,13 +15,13 @@
 * import dill
 
 ### **Presinstalled Libraries:**
-* import pandas as pd
-* import numpy as np
-* from sklearn.model_selection import train_test_split
-* from sklearn.preprocessing import StandardScaler
-* from sklearn.feature_selection import mutual_info_classif
-* from sklearn.feature_selection import RFE
-* from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
+* import pandas as pd.
+* import numpy as np.
+* from sklearn.model_selection import train_test_split.
+* from sklearn.preprocessing import StandardScaler.
+* from sklearn.feature_selection import mutual_info_classif.
+* from sklearn.feature_selection import RFE.
+* from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score.
 
 ### **Libraries that are to be installed manually in the "jupyter" notebook:**
 * import dill
