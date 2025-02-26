@@ -29,8 +29,11 @@ Results Obtained by training and testing the model:
 Without using the feature selection process:
 
 Model Accuracy : 0.9983
+
 Model Precision : 0.5000
+
 Model Recall : 0.8878
+
 Model F1 Score : 0.6397
 
 Using the feature selection process:
@@ -41,8 +44,14 @@ However this provided comparatively results of lower value, as a lot of features
 These are the following values obtained while using the feature selection process:
 
 Model Accuracy : 0.9938
+
 Model Precision : 0.2042
+
 Model Recall : 0.8980
+
 Model F1 Score : 0.3327
+
+Link to download the dataset:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 
