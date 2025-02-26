@@ -6,10 +6,10 @@ Model training and evaluation,
 Saving the trained model for real-world predictions,
 User-friendly input handling for new transactions.
 
-   1. If any missing values are found, we either impute them or remove them.
+   *  If any missing values are found, we either impute them or remove them.
       Since we collect user inputs, we replace missing values (with suitable estimates.
 
-   2. The dataset contains Time, Amount, and 28 PCA-transformed features (V1-V28).
+   *  The dataset contains Time, Amount, and 28 PCA-transformed features (V1-V28).
       Feature Scaling: Since transaction amounts vary widely, we use MinMaxScaler to bring all values into a standard range (0 to 1) to ensure fair model performance.
    
 Fraudulent transactions are rare (~0.17% of total data).
