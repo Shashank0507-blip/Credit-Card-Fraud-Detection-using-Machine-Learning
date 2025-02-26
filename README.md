@@ -12,8 +12,8 @@ User-friendly input handling for new transactions.
    *  The dataset contains Time, Amount, and 28 PCA-transformed features (V1-V28).
       Feature Scaling: Since transaction amounts vary widely, we use MinMaxScaler to bring all values into a standard range (0 to 1) to ensure fair model performance.
    
-Fraudulent transactions are rare (~0.17% of total data).
-We check for extreme outliers that might skew the model.
+   *  Fraudulent transactions are rare (~0.17% of total data).
+      We check for extreme outliers that might skew the model.
 
 **Once the data is preprocessed, we train an "LIGHTGBM" Classifier to detect fraud. Here’s the process that was used:**
    * **Train-Test Split:**
