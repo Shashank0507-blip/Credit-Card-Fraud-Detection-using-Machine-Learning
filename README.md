@@ -4,7 +4,7 @@ This project focuses on detecting fraudulent credit card transactions using ligh
 Data preprocessing & feature engineering,
 Model training and evaluation,
 Saving the trained model for real-world predictions,
-User-friendly input handling for new transactions
+User-friendly input handling for new transactions.
 
 1. If any missing values are found, we either impute them or remove them.
    Since we collect user inputs, we replace missing values (with suitable estimates.
