@@ -1,4 +1,4 @@
-_Project Overview:_
+**Project Overview:**
 
 _This project focuses on detecting fraudulent credit card transactions using lightgbm, a powerful gradient boosting algorithm. It includes:_
 Data preprocessing & feature engineering,
