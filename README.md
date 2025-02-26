@@ -27,6 +27,7 @@ learning_rate, max_depth, n_estimators, colsample_bytree and subsample.
 Results Obtained by training and testing the model:
 
 Without using the feature selection process:
+
 Model Accuracy : 0.9983
 Model Precision : 0.5000
 Model Recall : 0.8878
@@ -38,6 +39,7 @@ the output of mutual information which gave us the information on how each featu
 However this provided comparatively results of lower value, as a lot of features were removed. So we decided to include every feature to train and test the data.
 
 These are the following values obtained while using the feature selection process:
+
 Model Accuracy : 0.9938
 Model Precision : 0.2042
 Model Recall : 0.8980
