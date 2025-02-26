@@ -27,8 +27,7 @@
 - import dill
   - Code used to install: " !pip install dill "
 
-- from skopt.space import Real
-- from skopt.space import Integer, Categorical
+- from skopt.space import Real , import Integer, Categorical
   - Code to install: " !pip install scikit-optimize "
 
 - from lightgbm import LGBMClassifier
