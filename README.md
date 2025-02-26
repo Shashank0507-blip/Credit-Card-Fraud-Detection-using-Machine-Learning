@@ -17,15 +17,15 @@ We check for extreme outliers that might skew the model.
 
 Once the data is preprocessed, we train an "LIGHTGBM" Classifier to detect fraud. Here’s the process that was used:
 
-Train-Test Split:
-The dataset is split into training (80%) and testing (20%) to evaluate performance.
+   1.Train-Test Split:
+     The dataset is split into training (80%) and testing (20%) to evaluate performance.
 
-Model Selection:
-We use lightgbm, which is an optimized gradient boosting technique.
+   2.Model Selection:
+     We use lightgbm, which is an optimized gradient boosting technique.
 
-Hyperparameter Tuning:
-We apply "Bayesian Search" to find the best hyperparameters like:
-learning_rate, max_depth, n_estimators, colsample_bytree and subsample.
+   3.Hyperparameter Tuning:
+     We apply "Bayesian Search" to find the best hyperparameters like:
+     learning_rate, max_depth, n_estimators, colsample_bytree and subsample.
 
 
 Link to download the dataset:
